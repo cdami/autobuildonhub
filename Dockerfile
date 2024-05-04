@@ -1,4 +1,4 @@
 FROM ubuntu
 RUN apt-get update
 RUN ["apt-get", "install", "figlet"]
-CMD figlet Salud
+CMD figlet Salud amigo
