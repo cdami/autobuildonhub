@@ -1,6 +1,5 @@
 name: Push it, push it
 on:
-  [workflow_dispatch]
   push: { branches: main }
 
 jobs:
