@@ -13,5 +13,6 @@ jobs:
           docker build . -t cdami/autobuildonhub:latest
       - name: publish
         run: |
+          docker login -u cdami -p ${{ secrets.DOCKER_HUB_TOKEN }}
           docker push cdami/autobuildonhub:latest
 
